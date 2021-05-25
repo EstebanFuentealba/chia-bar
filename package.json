@@ -1,6 +1,6 @@
 {
   "name": "chia-bar",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "main.js",
   "description": "Show your Chia balance in macOS menu bar",
   "author": "Esteban Fuentealba",
