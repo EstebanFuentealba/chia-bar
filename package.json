@@ -1,0 +1,36 @@
+{
+  "name": "chia-bar",
+  "version": "0.0.1",
+  "main": "main.js",
+  "description": "Show your Chia balance in macOS menu bar",
+  "author": "Esteban Fuentealba",
+  "dependencies": {
+    "js-yaml": "^4.1.0"
+  },
+  "devDependencies": {
+    "electron": "^13.0.0",
+    "electron-builder": "^22.10.5"
+  },
+  "scripts": {
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder",
+    "start": "electron ."
+  },
+  "build": {
+    "publish": [
+      {
+        "provider": "github",
+        "owner": "EstebanFuentealba",
+        "repo": "chia-bar"
+      }
+    ],
+    "appId": "cl.json.chia-bar",
+    "mac": {
+      "category": "public.app-category.utilities",
+      "icon": "chia.icns",
+      "target": [
+        "dmg"
+      ]
+    }
+  }
+}
