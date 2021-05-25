@@ -2,7 +2,7 @@
 
 <p align="center">
   <br>
-  <img width="200" src="./logo.png" alt="Logo Chia">
+  <img width="100" src="./logo.png" alt="Logo Chia">
   <br>
   <br>
 </p>
@@ -19,10 +19,13 @@ If you liked this, my wallet is available for donations using the following addr
 
 - Chia: `xch1rzncxxjh70fjgg878nmyucuvlvkj67aj3e5u2vhduxck35ug92zqqyug6u`
 
+## Download
+Download last release .dmg [here](https://github.com/EstebanFuentealba/chia-bar/releases)
+
 ## License
 
 [MIT](LICENSE)
 
 ## TODO
 
-Create .dmg installable
+✅ Create .dmg installable
