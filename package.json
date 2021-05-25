@@ -9,11 +9,12 @@
   },
   "devDependencies": {
     "electron": "^13.0.0",
-    "electron-builder": "^22.10.5"
+    "electron-builder": "22.10.4"
   },
   "scripts": {
+    "build": "npm run dist",
     "pack": "electron-builder --dir",
-    "dist": "electron-builder",
+    "dist": "electron-builder --mac",
     "start": "electron ."
   },
   "build": {
